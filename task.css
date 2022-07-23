@@ -1,0 +1,452 @@
+
+body{
+    background-image: url(background.jpeg);
+   background-size: contain;
+   background-repeat: initial;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(20, 1, 1);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: lightslategray;
+   
+  
+}
+body p{
+    color: rgb(105, 221, 223);
+}
+
+
+
+/* 
+.all{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+
+
+
+.nav1{
+    text-align: center;
+    overflow: hidden;
+    
+    float: left;
+    display: inline;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+ 
+}
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+   
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav3{
+width: 100px;
+padding: 15px;
+margin-right: 100px;
+
+} */
+
+.topnav1{
+    height: 70px; 
+    width: 100%;
+    /* background-color:rgb(58, 180, 242); */
+    position: relative;
+    padding: -10px;
+    
+}
+
+.topnav1 img {
+margin-bottom: 5px;
+margin-top: -20px;
+/* position: fixed; */
+}
+.logo22 img {
+    margin-bottom: 30px;
+margin-top: -20px;
+
+}
+.topnav1 ul{
+    left: 100px;
+    position: absolute;
+    top:50% ;
+    transform: translateY(-50%);
+    height: 70px;
+    
+
+}
+
+.topnav1 ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    background-color: rgb(160, 188, 194);
+    margin: 2px;
+    border-radius: 12px;
+}
+.topnav1 .form{
+    right: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.topnav1 ul li a{
+    text-decoration: none;
+    color: rgb(82, 94, 117);
+}
+
+
+.veld{
+    background-color: rgb(49, 165, 242);
+}
+
+h1{
+    text-align: right;
+}
+.logo{
+    
+    
+    height: 100px;
+    width: 100;
+    align-items: center;
+top:20px;
+position: fixed;
+}
+/* .reg{
+    text-align: left;
+   
+    margin: 15px;
+} */
+
+.fieldset1 .form label {
+    text-align: left;
+    display: block;
+
+}
+.fieldset1 {
+    text-align: center;
+    padding: 100px;
+}
+.fieldset1 .form{
+    display: inline-block;
+    width: 300px;
+    
+    vertical-align: middle;
+
+}
+.fieldset1 .form input{
+    display: block;
+}
+
+.fieldset1 .img1 img{
+    width: 300px;
+}
+.fieldset1 .img1{
+    display: inline-block;
+    vertical-align: middle;
+ 
+    
+}
+
+
+
+table{
+   /* display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+  width: 100%;
+  background: border-box; */
+
+margin: auto;
+justify-content: center;
+border-collapse: collapse;
+width: 75%;
+padding: 60px 0;
+
+
+
+}
+table thead {
+    background-color: black;
+}
+
+th, td {
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  color: rgb(157, 214, 223);
+  
+
+}
+
+
+th,td{
+    padding: 30px;
+    text-align: center;
+    text-decoration: double;
+    
+}
+.logo2{
+    
+    
+    height: 60px;
+    width: 100;
+    align-items: center;
+top:20px;
+
+}
+.sellectm{
+    text-align: right;
+}
+
+/* .textt{
+   
+  margin-top: 40px; */
+
+
+
+  .information .allbox .box{
+    display: inline-block;
+    width: 250px;
+    padding: 50px 0;
+    
+}
+    
+.information .allbox{
+text-align: center;
+}
+
+.coverimg2{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(242, 209, 171);
+   
+   
+    
+}
+.coverimg3{
+    position: absolute;
+    top: 30px;
+    left: 26px;
+}
+.divimg{
+  display:block;
+   text-align: center;
+   position: relative;
+}
+.divimg1{
+position: relative;
+}
+.divimg2{
+    position: absolute;
+}
+.divimg11{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.divimg33{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    transform: translateY(-50%,-50%);
+    color: rgb(176, 12, 12);
+    
+
+    
+}
+
+
+.table1{
+    display:flex;
+    justify-content:center;
+    border-collapse:collapse;
+  width: 100%;
+  background: none;
+  border: #ddd;
+  
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+    /* border-bottom:hidden; */
+    border-color: #ddd;
+    
+    
+}
+
+ .imgtit{
+    position: relative;
+    display: block;
+    padding-left: 300px ;
+    margin: 1px;
+}
+ /* .titlee{
+    position: absolute;
+    display: block;
+    padding: 50px;
+    color: rgb(16, 56, 82);
+} */
+.titlee2 {
+
+    position: absolute;
+    display: inline-block;
+    padding: 50px;
+    color: rgb(16, 56, 82);
+}
+
+
+
+
+.imgtit2{
+    position: relative;
+    display: block;
+    padding-left: 900px;
+    margin: 1px;
+    color: rgb(16, 56, 82);
+    top: 0px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.titlee3{
+    position: absolute;
+   display: block;
+    top:10;
+    bottom: 40px;
+    left:100px;
+    margin-top: 50px;
+  
+   
+  
+}
+.allbox h1{
+    text-align: center;
+}
+.star1{
+    color: gold;
+}
+
+.star2{
+    color: gold;
+}
+.star3{
+    color: gold;
+}
+
+.divimgg1{
+    color: black;
+    text-decoration: double;
+}
+.table12{
+    color: black;
+    padding-left: 100px;
+}
+
+
+
+.subscribe1{
+    text-align: center;
+    position: relative;
+    
+   
+}
+
+
+
+.subscribe3{
+    position: absolute;
+     display: inline;
+    /* background-color: #4ca3af;
+    border: none;
+    color: rgb(80, 183, 195);
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer; */
+    
+   
+   
+}
+.subscribe{
+    padding: 35px;
+}
+
+.logo22{
+    margin-bottom: 30px;
+margin-top: -20px;
+}
+.center a {
+    color: gold;
+    text-decoration: underline;
+}
+.titlee3 a{
+    color: gold;
+    text-decoration: underline;
+}
+.titlee2 a{
+    color: gold;
+    text-decoration: underline;
+}
+
+.subscribe1 h4{
+    font-style: italic;
+    color: black;
+}
+
+.topnav111{
+    height: 70px; 
+    width: 100%;
+    /* background-color:rgb(58, 180, 242); */
+    position: relative;
+    
+}
+.topnav111 ul{
+    left: 100px;
+    position: absolute;
+    top:50% ;
+    transform: translateY(-50%);
+    height: 70px;
+    padding-top: 50px;
+    
+
+}
+
+.topnav111 ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    background-color: rgb(160, 188, 194);
+    margin: 2px;
+    border-radius: 12px;
+}
+.topnav111 .form{
+    right: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.topnav111 ul li a{
+    text-decoration: none;
+    color: rgb(82, 94, 117);
+    
+}
